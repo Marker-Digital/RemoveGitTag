@@ -7,11 +7,11 @@ require 'fastlane/plugin/remove_git_tag/version'
 Gem::Specification.new do |spec|
   spec.name          = 'fastlane-plugin-remove_git_tag'
   spec.version       = Fastlane::RemoveGitTag::VERSION
-  spec.author        = 'Shane Henderson'
+  spec.author        = 'Marker Digital'
   spec.email         = 'shane.h@marker.co.nz'
 
   spec.summary       = 'This will remove a specific tag from your remote branch'
-  # spec.homepage      = "https://github.com/<GITHUB_USERNAME>/fastlane-plugin-remove_git_tag"
+  spec.homepage      = "https://github.com/Marker-Digital/RemoveGitTag.git"
   spec.license       = "MIT"
 
   spec.files         = Dir["lib/**/*"] + %w(README.md LICENSE)
